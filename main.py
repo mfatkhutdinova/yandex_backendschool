@@ -175,7 +175,7 @@ def post():
     if not data:
         return "400: Bad request", 400
 
-    import_id = random.randint(0, 1000)
+    import_id = random.randint(0, 10000)
 
     quote = {
         "data": {
